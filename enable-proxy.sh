@@ -1,9 +1,10 @@
 #!/bin/bash
 disable_proxy()
 {
-        networksetup -setsocksfirewallproxystate Wi-Fi off
-        networksetup -setsocksfirewallproxystate Ethernet off
-        echo "SOCKS proxy disabled."
+    killall ssh
+    networksetup -setsocksfirewallproxystate Wi-Fi off
+    networksetup -setsocksfirewallproxystate Ethernet off
+    echo "SOCKS proxy disabled."
 }
 trap disable_proxy INT
  
