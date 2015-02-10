@@ -1,0 +1,6 @@
+[submodule "workflow-config/z"]
+	path = workflow-config/z
+	url = https://github.com/rupa/z.git
+[submodule "workflow-config/Extract"]
+	path = workflow-config/Extract
+	url = https://github.com/chris838/Extract.git

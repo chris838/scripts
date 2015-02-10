@@ -1,0 +1,4 @@
+# Remember to type source ~/.bash_profile to reload
+
+. ~/scripts/workflow-config/Extract/extract.sh
+. ~/scripts/workflow-config/z/z.sh
