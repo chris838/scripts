@@ -1,0 +1,12 @@
+{
+"~b" = moveWordBackward:;
+"~f" = moveWordForward:;
+
+"~d" = deleteWordForward:;
+"^w" = deleteWordBackward:;
+
+"^u" = deleteToBeginningOfLine:;
+
+"^v" = pageDown:;
+"~v" = pageUp:;
+}
