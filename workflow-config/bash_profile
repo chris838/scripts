@@ -2,3 +2,7 @@
 
 . ~/scripts/workflow-config/Extract/extract.sh
 . ~/scripts/workflow-config/z/z.sh
+. ~/scripts/workflow-config/history.sh
+. ~/scripts/workflow-config/cl.sh
+. ~/scripts/workflow-config/fawk.sh
+
