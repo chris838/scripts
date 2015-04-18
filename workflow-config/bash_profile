@@ -5,4 +5,7 @@
 . ~/scripts/workflow-config/history.sh
 . ~/scripts/workflow-config/cl.sh
 . ~/scripts/workflow-config/fawk.sh
+. ~/scripts/workflow-config/ls.sh
 
+# Enable opening sublime from the command line 
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
