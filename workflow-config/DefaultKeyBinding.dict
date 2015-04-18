@@ -9,4 +9,7 @@
 
 "^v" = pageDown:;
 "~v" = pageUp:;
+
+"^p" = moveUp:;
+"^n" = moveDown:;
 }
