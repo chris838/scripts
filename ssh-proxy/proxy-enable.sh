@@ -17,4 +17,4 @@ sudo networksetup -setsocksfirewallproxystate Wi-Fi on
 sudo networksetup -setsocksfirewallproxystate Thunderbolt\ Ethernet on
 echo "SOCKS proxy enabled."
 echo "Tunneling..."
-ssh -C -D 8080 -Nf root@zvps.co
+ssh -C -D 8080 -Nf 3xl.co
