@@ -5,10 +5,17 @@
     <identifier>private.opt_h_delete_word_back</identifier>
     <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::OPTION_L, KeyCode::DELETE, ModifierFlag::OPTION_L</autogen>
   </item>
+    <item>
+    <name>Control+H to delete char backwards</name>
+    <identifier>private.ctrl_h_delete_char_back</identifier>
+    <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::CONTROL_L, KeyCode::DELETE</autogen>
+  </item>
   <item>
     <name>More accessible arrow keys</name>
     <identifier>remap.accessibleArrowKeys</identifier>
     <autogen>__KeyToKey__ KeyCode::P, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP</autogen>
     <autogen>__KeyToKey__ KeyCode::N, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN</autogen>
+    <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT</autogen>
+    <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT</autogen>
   </item>
 </root>
