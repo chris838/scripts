@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Option+H to delete word backwards</name>
+    <identifier>private.opt_h_delete_word_back</identifier>
+    <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::OPTION_L, KeyCode::DELETE, ModifierFlag::OPTION_L</autogen>
+  </item>
+    <item>
+    <name>Control+H to delete char backwards</name>
+    <identifier>private.ctrl_h_delete_char_back</identifier>
+    <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::CONTROL_L, KeyCode::DELETE</autogen>
+  </item>
+  <item>
+    <name>More accessible arrow keys</name>
+    <identifier>remap.accessibleArrowKeys</identifier>
+    <autogen>__KeyToKey__ KeyCode::P, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP</autogen>
+    <autogen>__KeyToKey__ KeyCode::N, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN</autogen>
+    <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT</autogen>
+    <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT</autogen>
+  </item>
+  <item>
+    <name>More accessible escape key</name>
+    <identifier>remap.accessibleEscKey</identifier>
+    <autogen>__KeyToKey__ KeyCode::Q, ModifierFlag::CONTROL_L, KeyCode::ESCAPE</autogen>
+  </item>
+  <item>
+    <name>Remap spell check key Cmd+; to Ctrl+Opt+Cmd+;</name>
+    <identifier>remap.spellCheck</identifier>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::COMMAND_L, ModifierFlag::CONTROL_L, KeyCode::L, ModifierFlag::COMMAND_L, ModifierFlag::CONTROL_L, ModifierFlag::OPTION_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::COMMAND_L, KeyCode::SEMICOLON, ModifierFlag::COMMAND_L, ModifierFlag::CONTROL_L, ModifierFlag::OPTION_L</autogen>
+  </item>
+  <item>
+    <name>Remap Cmd+Shift+ braces to Cmd+Ctrl+ braces, to ensure tab switch consistency between Chrome and iTerm</name>
+    <identifier>remap.chromeTabSwitch</identifier>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L, ModifierFlag::CONTROL_L, KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L, ModifierFlag::CONTROL_L, KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L</autogen>
+  </item>
+</root>
