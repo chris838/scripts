@@ -7,5 +7,9 @@
 . ~/scripts/workflow-config/fawk.sh
 . ~/scripts/workflow-config/ls.sh
 
-# Enable opening sublime from the command line 
-ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+# Git autocompletion
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
+else
+    echo "Warning - git autocompletion not installed."
+fi
